@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Yandex.Money form
+Plugin Name: Yandex.Money Form Payment
 Plugin URI: https://github.com/casepress-studio/yandex-money-wordpress-shortcode
 Version: 1.0.0
 Author: CasePress Studio
 Author URI: http://casepress.org
-Description: Добавляет шорткод, для создания формы оплаты через систему Яндекс.Деньги 
+Description: Добавляет шорткод, для создания формы оплаты через систему Яндекс.Деньги. Шорткод вида [yandex_money_payment_form scid=xxx shop_id=xxx]
 */
 
 
