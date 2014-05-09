@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Yandex.Money Form Payment
+Plugin Name: Яндекс.Деньги - Форма оплаты
 Plugin URI: https://github.com/casepress-studio/yandex-money-wordpress-shortcode
 Version: 1.0.0
 Author: CasePress Studio
