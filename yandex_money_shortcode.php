@@ -121,6 +121,12 @@ add_shortcode( 'yandex_money_payment_form', function( $atts ) {
 	                  <input id="form-order-wm" name="PaymentType" <?php if ($PaymentType == "WM"){echo'checked="checked"';} ?> value="WM" type="radio"> Сo счета WebMoney
 	                </label>
 	              </div>
+	              <div class="cp-form-order-ab list-pay-item">
+	              	<label for="form-order-ab">
+	                  <input id="form-order-ab" name="PaymentType" <?php if ($PaymentType == "AB"){echo'checked="checked"';} ?> value="AB" type="radio"> Через АльфаБанк
+	                </label>
+	              </div>
+	              
 	  	</fieldset>
 	  	<input class="btn" type=submit value="Оплатить">
 	  	<input type="hidden" name="scid" value="<?php echo $scid; ?>">
